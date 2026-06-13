@@ -1,6 +1,6 @@
 <script lang="ts">
   import {Events} from "@wailsio/runtime";
-  import {GreetService} from "../bindings/changeme";
+  import {GreetService} from "../bindings/github.com/feynbin/oxygo";
 
   let name: string = $state('');
   let result: string = $state('Please enter your name below 👇');

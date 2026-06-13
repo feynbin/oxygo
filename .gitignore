@@ -1,6 +1,13 @@
 .task
 bin
+
+# Client (Wails3)
 frontend/dist
 frontend/node_modules
 build/linux/appimage/build
 build/windows/nsis/MicrosoftEdgeWebview2Setup.exe
+
+# Build outputs
+cmd/client/bin/
+cmd/server/bin/
+cmd/admin/bin/
